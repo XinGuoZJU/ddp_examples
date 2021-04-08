@@ -11,7 +11,7 @@ references:
 Test Batch_size: In our setting, the lr is 1.0, and the gradient is always 1.0.
 
 Results:
-'''
+
     batch_size = 15, 1 GPU, loss sum:
     -15, -30, -45, -60, -75, -90, -105, -120
     batch_size = 15, 2 GPU, loss sum:
@@ -32,7 +32,7 @@ Results:
     -1, -2, -3, -4
     batch_size = 30, 2 GPU, loss mean:
     -1, -2
-'''
+
 
 https://pytorch.org/docs/stable/generated/torch.nn.parallel.DistributedDataParallel.html#torch.nn.parallel.DistributedDataParallel
 
