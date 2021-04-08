@@ -11,3 +11,8 @@
 # env: single-device multi-gpu
 # python -m torch.distributed.launch --nproc_per_node=2 torch_env.py
 
+
+# test batch_size
+# python -m torch.distributed.launch --nproc_per_node=1 torch_env_test.py
+# python -m torch.distributed.launch --nproc_per_node=2 torch_env_test.py
+
