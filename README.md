@@ -8,7 +8,9 @@ references:
   https://zhuanlan.zhihu.com/p/74792767
 
 
-Test Batch_size: In our setting, the lr is 1.0, and the gradient is always 1.0.
+# Test Batch_size: 
+
+## In our setting, the lr is 1.0, and the gradient is always 1.0.
 
 Results:
 
