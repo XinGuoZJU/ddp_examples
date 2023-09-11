@@ -22,10 +22,9 @@ batch_size = 30
 data_size = 120
 
 # 2） 配置每个进程的gpu
-if args.local_rank == -1:
-    local_rank = torch.distributed.get_rank()
-else:
-    local_rank = args.local_rank
+local_rank = args.local_rank
+rank = torch.distributed.get_rank()
+
 torch.cuda.set_device(local_rank)
 device = torch.device("cuda", local_rank)
 
